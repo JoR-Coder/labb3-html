@@ -2,8 +2,8 @@
  * 
  * 
  */
-var buttons;
-var content;
+var	content = $('.content');
+var	buttons = $('.menu button');
 // Samlar mina globaler här...
 
 $('document').ready( main );
@@ -13,22 +13,23 @@ console.log( 'EOJ' );
 
 
 function main(){
-	content = $('.content');
+	
 	registerButtons();
 }
 
 function registerButtons(){
-	msg( 'Registrerat knapparna' );
-	buttons = $('button');
 	for( b in buttons ){
-		buttons[b].on( 'click', loadPage );
+		buttons[b].on( "click", loadPage );
 	}
+
+	msg( 'Registrerat knapparna' );
 }
 
-function loadPage(  ){
+function loadPage( e ){
 	var title = $(this).text();
+
 	content.append( title );
-	msg( 'This'+title );
+	msg( 'This '+e );
 	
 	return false;
 }
