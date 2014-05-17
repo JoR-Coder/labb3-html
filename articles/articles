@@ -1,0 +1,44 @@
+{
+	"articles": [
+		{
+			"title": "Hej svejs",
+			"text":  "Artikel nummer 1. <br>Hejsan hoppsan, falleralleraaaa! <b>Fett</b>.<img src=\"http://apike.ca/sites/default/files/styles/large/public/field/image/20121108/totoro-tree.jpg?itok=leDKYGWu\" width=300 height=200/>",
+			"author": "Niklas Logren",
+			"authorEmail": "niklas@niklaslogren.com",
+			"date": "2014-04-05"
+		},
+
+		{
+			"title": "Sångtext",
+			"text": "Nu ska varenda unge vara gla",
+			"author": "Niklas Logren",
+			"authorEmail": "niklas@niklaslogren.com",
+			"date": "2014-04-05"
+		},
+
+		{
+			"title": "525600",
+			"text": "how do you measure a year in the life?",
+			"author": "Niklas Logren",
+			"authorEmail": "niklas@niklaslogren.com",
+			"date": "2014-04-05"
+		},
+
+		{
+			"title": "massive attack",
+			"text": "Make the flowers blossom",
+			"author": "Niklas Logren",
+			"authorEmail": "niklas@niklaslogren.com",
+			"date": "2014-04-05"
+		},
+
+		{
+			"title": "monster",
+			"text": "and slowly, you come to realise",
+			"author": "Niklas Logren",
+			"authorEmail": "niklas@niklaslogren.com",
+			"date": "2014-04-05"
+		}
+
+	]
+}
